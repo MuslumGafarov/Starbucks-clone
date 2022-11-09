@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Mukta:wght@300;500;600&family=Signika+Negative&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+.container{
+  
+    position: relative;
+ width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid gray;
+}
+.bir{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    margin-left: -850px;
+ 
+    height: 30px;
+    width: 400px;
+}
+.yaz{
+    letter-spacing: 1.5px;
+    font-family:  'Kanit', sans-serif;
+    text-decoration: none;
+    color: black;
+   font-size: 16px;
+   font-weight: bold;
+}
+.yaz:hover{
+   color: green;
+}
+.logo{
+  
+    width: 55px;
+    height: 55px;
+}
+.log{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    margin-right: 1270px;
+}
+.iki{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin-left: 890px;
+
+    height: 30px;
+    width: 400px;
+}
+#ya{
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    text-decoration: none;
+    
+   font-size: 17px;
+   font-weight: 550;
+}
+.yaz1{
+    word-spacing: 0.1;
+    color: black;
+    font-size: 20px;
+}
+.yaz2{
+   
+   
+    background-color: white;
+    margin-left: 30px;
+  width: 70px;
+  height: 30px;
+
+    border-radius: 20px;
+}
+.loca{
+    background-color: white;
+   
+}
+.yaz2:hover{
+    background-color: rgb(240, 244, 244);
+}
+.yaz3{
+    margin-right: 21px;
+    color: white;
+  width: 100px;
+  height: 30px;
+ border: 1px solid black;
+background-color: black;
+ color: white;
+    border-radius: 20px; 
+}
+.yaz3:hover{
+    background-color: rgba(0,0,0,.5);
+    color: rgb(31, 29, 29);
+    transition: 0.1s;
+    transition-delay: 0.2s;
+}
+.yaz1:hover{
+    color: green;
+}
+.sel1{
+   width:auto;
+  
+    justify-content: center;
+   text-align: center;
+    height: 220px;
+    border: 1px solid #d62b1f;
+    background-color: #d62b1f;
+}
+h1{
+    
+
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: white;
+    font-family:  'Kanit', sans-serif;
+    margin-top: 17px;
+    font-size: 50px;
+}
+.head1{
+    font-family:  'Kanit', sans-serif;
+color: white;
+    font-size: 25px;
+   
+  
+}
+.head11{
+    font-size: 25px;
+    font-family:  'Kanit', sans-serif;
+    color: white;
+    
+}
+.head1:hover{
+    text-decoration: none;
+}
+
+
+.sel21{
+    padding-right: 0;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+  
+    height: 600px;
+    background-color: #d62b1f;
+    border: 1px solid black;
+    width: 50%;
+}
+.h12{
+    font-size: 55px;
+    line-height: 61px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+
+.veter{
+    font-family:  'Kanit', sans-serif;
+   
+    color: white;
+   font-size: 25px;
+
+}
+.butto{
+   
+    font-family:  'Kanit', sans-serif;
+    height: 30px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    background-color:#d62b1f ;
+    font-size: 16px;
+}
+.kofe1{
+
+    padding:0;
+    margin-top: 30px;
+    margin-left: 670px;
+    width: 679px;
+    height: 600px;
+}
+
+  
+@media screen and (max-width:780px) {
+    .yaz{
+        display: none;
+    }
+   body{
+    overflow-x: hidden;
+   }
+}
