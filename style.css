@@ -14,11 +14,11 @@ body{
 .container{
   
     position: relative;
- width: 1400px;
+ width: 88rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 6rem;
     border-bottom: 1px solid gray;
 }
 .bir{
@@ -44,17 +44,27 @@ body{
    color: green;
 }
 .logo{
-  
+   
+
     width: 55px;
     height: 55px;
 }
+.logo2{
+ display: none;
+    margin-left: -400px;
+    position: absolute;
+   height: 40px;
+    width: 40px;
+}
 .log{
+   
     height: 60px;
     width: 60px;
     position: absolute;
     margin-right: 1270px;
 }
 .iki{
+
     position:relative;
     display: flex;
     justify-content: center;
@@ -66,6 +76,7 @@ body{
     width: 400px;
 }
 #ya{
+    cursor: pointer;
     text-decoration: none;
     font-family: 'Mukta', sans-serif;
     text-decoration: none;
@@ -91,11 +102,14 @@ body{
  border-radius: 20px;
 }
 #loca{
-  
+  cursor: pointer;
     position: absolute;
     margin-right: -50px;
     background-color: white;
    
+}
+#loca:hover{
+color: green;
 }
 .yaz2:hover{
     background-color: rgb(240, 244, 244);
@@ -189,7 +203,7 @@ color: white;
 
 }
 .butto{
-   
+   cursor: pointer;
     font-family:  'Kanit', sans-serif;
     height: 30px;
     width: 150px;
@@ -200,20 +214,40 @@ color: white;
     font-size: 16px;
 }
 .kofe1{
-
+float: bottom;
     padding:0;
     margin-top: 30px;
-    margin-left: 670px;
-    width: 679px;
+    margin-left: 50%;
+    width: 50%;
     height: 600px;
 }
 
   
-@media screen and (max-width:780px) {
-    .yaz{
+@media screen and (max-width:600px) {
+    .container{
+        position: relative;
+    }
+    .logo2{
+        display: block;
+        margin-top: 20px !important;
+  margin-left: -79px !important;
+      margin: 50px;
+
+    
+    }
+
+    .bir {
         display: none;
     }
-   body{
-    overflow-x: hidden;
-   }
+    .iki{
+        display: none;
+    }
+    .container{
+        height: 60px;
+      width: 400px;
+    }
+
+body{
+    overflow-x:hidden !important ;
+}
 }
